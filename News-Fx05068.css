@@ -1,0 +1,188 @@
+
+/*--- menu----*/
+    .navbar-brand {
+        color: #3333FF !important;
+        font-size: 2em;
+}
+    .navbar-nav li a:focus {
+        color: chocolate !important;
+} 
+    .navbar-nav li :hover {
+        background-color: #19197f !important;
+        transition: 1s;
+}
+    .navbar-nav li a {
+        border-radius: 5px;
+}
+/*--- news ----*/
+    #news {
+        margin: 0px !important;
+}
+    #news a {
+        color: black;
+}
+    #newspost h3 {
+        background-color: #3333FF;
+        color: aliceblue;
+        margin: 0px;
+        padding: 5px 0px;
+}
+    #newspost .row {
+        border-bottom: 1px solid #C0C0C0;
+        background-color: #F5F5F5;
+        padding: 10px 10px;
+        margin: 0px 15px !important;
+        height: 8rem;
+}
+    .col1 {
+        background-image: url('img/image6.jpg');
+        background-size: cover;
+        background-position: center;
+}
+    .col2 {
+        background-image: url('img/image7.jpg');
+        background-size: cover;
+        background-position: center;
+}
+    .col3 {
+        background-image: url('img/image8.jpg');
+        background-size: cover;
+        background-position: center;
+}
+    .col4 {
+        background-image: url('img/Meet%20our%20team.jpg');
+        background-size: cover;
+        background-position: center;
+}
+    .col5 {
+        background-image: url('img/Education%20consulting.jpg');
+        background-size: cover;
+        background-position: center;
+}
+        
+/*--- Footer ----*/
+    #footer {
+        background-color: #282828;
+        color: aliceblue;
+        padding: 50px 20px 20px;
+}
+    #footer-box2 li a, #footer-box3 li a {
+        text-decoration: none;
+        color: aliceblue;    
+}
+    #footer-box2 li , #footer-box3 li {
+        list-style-type: none;
+}
+    #footer-box2 ul, #footer-box3 ul {
+        padding-left: 0px;
+}
+    #copyright {
+        text-align: center;
+        font-size: 1.2em;
+}
+    hr {
+        border: 1px solid aliceblue;
+        margin: 30px 0px;
+}
+    .femail {
+        margin-top: 15px;
+        width: 100% !important;
+        background-color: #282828;
+        border:none;
+        border-bottom: 2px solid #C0C0C0;
+        position: relative;
+}
+    #footer-box4 form {
+        position: relative;
+}
+    #footer-box4 form .fsubmit {
+        position: absolute;
+        right: 0px;
+        bottom: 5px;
+}
+
+
+/*-------------------------------Media: Ipad------------------*/
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+/*--- menu----*/
+        .navbar {
+            background-color: #3333FF;
+    }
+        .brand {
+            width:30%;
+            text-align: center;
+    }
+        .navbar-brand {
+            color: aliceblue !important;
+    }
+        .navbar-nav li a {
+            color: aliceblue !important;
+    }
+        .navbar i {
+            color: aliceblue !important;   
+    }
+}
+
+/*-------------------------------Media:Laptop------------------*/
+
+@media screen and (min-width: 992px) {
+    /*--- menu----*/
+        .navbar {
+            background-color: #3333FF;
+    }  
+        .textsearch {
+            width:10%;
+            padding: 10px;
+    }
+        .brand {
+            width:40%;
+            text-align: center;
+    }
+        .navbar-brand {
+            color: aliceblue !important;
+    }
+        .navbar-nav li a {
+            color: aliceblue !important;
+    }
+        .navbar i {
+            color: aliceblue !important;   
+    }
+
+/*--- news----*/
+        #newspost {
+            margin-top: 25px;
+    }
+        #news {
+            padding: 0px 180px!important;
+    }
+        #newspost  h6 {
+            font-size: 0.8rem ;
+    }
+         .ace  {
+             height: 6rem;
+             overflow: hidden;
+    }
+
+/*--- footer----*/
+        #footer {
+            padding: 50px 200px 10px;
+            font-size: 0.8em;
+    }
+        #footer h3 {
+            font-size: 1.5em;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

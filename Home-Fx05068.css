@@ -1,0 +1,272 @@
+
+/*--- menu----*/
+    .navbar-brand {
+        color: #3333FF !important;
+        font-size: 2em;
+}
+    .navbar-nav li a:focus {
+        color: chocolate !important;
+} 
+    .navbar-nav li :hover {
+        background-color: #19197f !important;
+        transition: 1s;
+}
+    .navbar-nav li a {
+        border-radius: 5px;
+} 
+/*--- about ----*/
+    #about {
+        padding: 20px 15px;
+        margin: 0px;
+}
+    #about-box1 h6 i {
+        color: aqua;
+}
+/*--- ourbusiness ----*/
+    #ourbusiness {
+        margin: 20px 15px;
+}
+    #ourbusiness-box1 {
+        padding: 0px;
+}
+    #ourbusiness-box2 {
+        background-image: url(img/image10.jpg);
+        padding: 20px 15px;
+        color: white;
+        text-align: center;    
+}
+    #ourbusiness-box2 a {
+        color: white;
+        text-align: center !important;
+}
+    #ourbusiness-box2 h6 {
+        text-align: left!important;
+        padding-left: 60px;   
+}
+    .img-thumbnail {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+}
+/*--- news ----*/
+    #news {
+        padding: 20px 15px;
+}
+    .card a {
+        color: black
+}
+    #news h6 i {
+        color: aqua;
+}
+/*--- contact ----*/
+    #contactcol {
+        padding: 20px 15px;
+        margin: 0px;
+}
+    #contact-box1, #contact-box2 {
+        padding: 0px;
+}
+    #contact-box1 input, textarea {
+        margin-bottom: 10px;;
+}
+    #send-buton input {
+        background-color: orange;
+        border-radius: 5px;
+        width: 50%;
+        height: 3.5em;
+        border: none;
+}
+    #contact-box1 h6 i {
+        color: aqua;
+}
+/*--- Footer ----*/
+    #footer {
+        background-color: #282828;
+        color: aliceblue;
+        padding: 50px 20px 20px;
+}
+    #footer-box2 li a, #footer-box3 li a {
+        text-decoration: none;
+        color: aliceblue;    
+}
+    #footer-box2 li , #footer-box3 li {
+        list-style-type: none;
+}
+    #footer-box2 ul, #footer-box3 ul {
+        padding-left: 0px;
+}
+    #copyright {
+        text-align: center;
+        font-size: 1.2em;
+}
+    hr {
+        border: 1px solid aliceblue;
+        margin: 30px 0px;
+}
+    .femail {
+        margin-top: 15px;
+        width: 100% !important;
+        background-color: #282828;
+        border:none;
+        border-bottom: 2px solid #C0C0C0;
+        position: relative;
+}
+    #footer-box4 form {
+        position: relative;
+}
+    #footer-box4 form .fsubmit {
+        position: absolute;
+        right: 0px;
+        bottom: 5px;
+}
+
+
+/*-------------------------------Media: Ipad------------------*/
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+/*--- menu----*/
+        .navbar {
+            background-color: #3333FF;
+    }
+        .brand {
+            width:30%;
+            text-align: center;
+    }
+        .navbar-brand {
+            color: aliceblue !important;
+    }
+        .navbar-nav li a {
+            color: aliceblue !important;
+    }
+        .navbar i {
+            color: aliceblue !important;   
+    }
+/*--- about----*/
+        #about {
+            padding: 20px 25px;
+    }
+/*--- our business----*/
+        #ourbusiness {
+            margin: 20px 0px;
+    }
+        #ourbusiness-box2 {
+            text-align: left;    
+    }
+        #ourbusiness-box2 h6 {
+            padding-left: 30px;   
+    }
+/*--- news----*/
+        #news {
+            padding: 20px 25px;
+    }
+/*--- contact----*/
+        #contact-box1, #contact-box2{
+            padding: 20px 10px;
+    }
+}
+
+/*-------------------------------Media:Laptop------------------*/
+
+@media screen and (min-width: 992px) {
+    /*--- menu----*/
+        .navbar {
+            background-color: #3333FF;
+    }  
+        .textsearch {
+            width:10%;
+            padding: 10px;
+    }
+        .brand {
+            width:40%;
+            text-align: center;
+    }
+        .navbar-brand {
+            color: aliceblue !important;
+    }
+        .navbar-nav li a {
+            color: aliceblue !important;
+    }
+        .navbar i {
+            color: aliceblue !important;   
+    }
+/*--- about----*/
+        #about {
+            padding: 20px 200px;
+    }
+/*--- ourbussiness----*/
+        .img-thumbnail {
+            position: absolute;
+            left: -25px;
+    }
+        #ourbusiness {
+            margin: 20px 0px;
+    }
+        #ourbusiness-box2 {
+            position: relative;
+            text-align: left;
+            padding-left: 50px;
+    }
+        #ourbusiness-box2 h6 {
+            padding-left: 0px;   
+    }
+/*--- news----*/
+        #news {
+            padding: 20px 210px;
+    }
+    
+/*--- contact----*/
+        #send-buton input {
+            width: 300px;
+            text-align: center;
+    }
+        #contactcol {
+            position: relative;
+            margin-bottom: 100px;
+            padding: 20px 200px;
+    }
+         #contact-box1, #contact-box2{
+            padding: 20px 10px;
+    }
+        #contact-box1 h3 {
+            font-size: 1.5em;
+    }
+        #contact-box1{
+            position: static;
+    }
+        #send-buton {
+            position: absolute;
+            left: 50%;
+            margin-left: -150px;
+    }
+        .formbox input {
+            font-size: 0.7em !important;
+            padding: 5px;
+    }
+        .formbox {
+            padding: 5px;
+    }
+        form .row {
+            padding: 10px;
+    }
+/*--- footer----*/
+        #footer {
+            padding: 50px 200px 10px;
+            font-size: 0.8em;
+    }
+        #footer h3 {
+            font-size: 1.5em;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
